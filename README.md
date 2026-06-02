@@ -55,7 +55,7 @@ This is my HTML + CSS project website showing off my portfolio and past projects
 
 ## Demo
 
-Get the link of the repository and copy it into any browser to use and interact with the website.
+Save all files and folders within this repo, run the folder and files within a text editor such as VS Code, launch the index.html file in any browser you use (your default browser for the best outcomes) and finally interact with the website.
 
 
 ## Challenges
