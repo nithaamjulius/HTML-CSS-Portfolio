@@ -7,27 +7,52 @@
     <title>Parchment of Address</title>
   </head>
   <body>
-    <!-- Contact Form -->
-    <div id="Contact-Form">
-      <form class="Contact-Content">
-        <h2 class="Contact-Title">Contact Form</h2>
-        <label for="Fname">Full Name: </label>
-        <input type="text" id="Fname" name="Fname" /><br />
-        <label for="Mail">Email: </label>
-        <input type="email" id="Mail" name="Mail" /><br />
-        <label for="Subject">Subject: </label><br />
-        <select id="Subject" name="Subject">
-          <option value="">Select a subject</option>
-          <option value="General">General Inquiry</option>
-          <option value="Support">Support</option>
-          <option value="Feedback">Feedback</option>
-          <option value="Other">Other</option></select
-        ><br /><br />
-        <label for="Message">Message: </label>
-        <textarea rows="2" cols="30" name="message" id="message"></textarea
-        ><br />
-        <button type="submit">Send</button>
-      </form>
-    </div>
+    <header>
+      <nav class="Navbar">
+        <ul class="Navbar-Content">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="Contact-Form">
+      <div class="Contact-Content">
+        <h1 class="Contact-Title">Contact Me</h1>
+        <p>Send a message and I’ll get back to you soon.</p>
+
+        <form action="https://formspree.io/f/xpqnvojd" method="POST">
+          <label for="name">Your name</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Jane Doe"
+            required
+          />
+
+          <label for="email">Your email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="jane@example.com"
+            required
+          />
+
+          <label for="message">Your message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Tell me about your project..."
+            required
+          ></textarea>
+
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
