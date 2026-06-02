@@ -115,6 +115,7 @@ label {
 /* NAVIGATION */
 .Navbar {
   width: 100%;
+  padding: 1.5rem 1rem;
 }
 
 .Navbar-Content {
@@ -570,6 +571,10 @@ button:focus-visible {
 }
 
 @media (max-width: 640px) {
+  .Navbar {
+    padding: 1rem 0.75rem;
+  }
+
   .Navbar-Content {
     flex-direction: column;
     align-items: stretch;
